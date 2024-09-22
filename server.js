@@ -28,7 +28,7 @@ app.use("/api/v1/post", require("./routes/postRoutes"));
 app.get("/", (req, res) => {
   res.status(200).send({
     "success": true,
-    "message": "Welcome to the FULL STACK RN APP",
+    "msg": "Node Server Running...",
   });
 });
 
